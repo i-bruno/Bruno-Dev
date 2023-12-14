@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.programador {
+    width: 65vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* width: 30vw;
+    margin-top: 8px; */
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Estilos para laptops y escritorios */
+    .programador{
+        width: 29vw;
+    };
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tabletas en orientación horizontal */
+    .programador{
+        width: 43vw;
+    };
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tabletas en orientación vertical */
+    .programador{
+        width: 38vw;
+    };
+};
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .programador{
+        width: 40vw;
+    };
+};
+
+/* @media only screen and (max-width: 480px) {
+    /* Estilos para teléfonos móviles en orientación vertical */
+
+
+
+
+
+
+
