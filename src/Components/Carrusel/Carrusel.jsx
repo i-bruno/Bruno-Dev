@@ -37,6 +37,12 @@ const Carrusel = () => {
                         <img src=".\img\sass.svg" height="100" width="250" alt="" />
                     </div>
                     <div className="slide">
+                        <img src=".\img\php.svg" height="100" width="250" alt="" />
+                    </div>
+                    <div className="slide">
+                        <img src=".\img\mysql-logo.svg" height="100" width="250" alt="" />
+                    </div>
+                    <div className="slide">
                         <img src=".\img\bootstrap.svg" height="100" width="250" alt="" />
                     </div>
                     <div className="slide">
@@ -65,6 +71,12 @@ const Carrusel = () => {
                     </div>
                     <div className="slide">
                         <img src=".\img\sass.svg" height="100" width="250" alt="" />
+                    </div>
+                    <div className="slide">
+                        <img src=".\img\php.svg" height="100" width="250" alt="" />
+                    </div>
+                    <div className="slide">
+                        <img src=".\img\mysql-logo.svg" height="100" width="250" alt="" />
                     </div>
                 </div>
             </div>

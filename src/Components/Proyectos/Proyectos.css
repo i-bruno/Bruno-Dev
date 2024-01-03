@@ -23,7 +23,6 @@
     display: flex;
     width: 200px;
     height: 300px;
-    background-color: aqua;
     opacity: .8;
     transition: 1s ease;
     background-image: url("./img/indice.png");
@@ -46,6 +45,19 @@
     align-content: center;
 }
 
+.pr3{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    opacity: .8;
+    transition: 1s ease;
+    background-image: url("./img/rocioricagno.png");
+    background-size: cover;
+    flex-direction: row;
+    align-items:end;
+    align-content: center;
+}
+
 .pr1:hover{
     width: 800px;
     opacity: 1;
@@ -53,6 +65,12 @@
 }
 
 .pr2:hover{
+    width: 800px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.pr3:hover{
     width: 800px;
     opacity: 1;
     filter: contrast(120%);
