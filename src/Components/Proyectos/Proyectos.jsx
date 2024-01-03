@@ -8,7 +8,9 @@ const Proyectos = () => {
     const [hover, setHover] = useState(false);
 
     const handleHoverPr1 = () => {
-        setHover(true);
+        setTimeout(() => {
+            setHover(true);
+        }, 1000); // 1000 milisegundos = 1 segundo
     };
 
     const handleLeavePr1 = () => {
@@ -19,24 +21,28 @@ const Proyectos = () => {
     const [hoverPr2, setHoverPr2] = useState(false);
 
     const handleHoverPr2 = () => {
-        setHoverPr2(true);
+        setTimeout(() => {
+            setHoverPr2(true);
+        }, 1000);
     };
 
     const handleLeavePr2 = () => {
         setHoverPr2(false);
     };
 
-        //useState proyecto3
-        const [hoverPr3, setHoverPr3] = useState(false);
+    //useState proyecto3
+    const [hoverPr3, setHoverPr3] = useState(false);
 
-        const handleHoverPr3 = () => {
+    const handleHoverPr3 = () => {
+        setTimeout(() => {
             setHoverPr3(true);
-        };
-    
-        const handleLeavePr3 = () => {
-            setHoverPr3(false);
-        };
-    
+        }, 1000);
+    };
+
+    const handleLeavePr3 = () => {
+        setHoverPr3(false);
+    };
+
 
     return (
         <div className='galeria'>
