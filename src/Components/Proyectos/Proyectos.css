@@ -27,9 +27,9 @@
     transition: 1s ease;
     background-image: url("./img/indice.png");
     background-size: cover;
-    flex-direction: row;
-    align-items:end;
-    align-content: center;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
 }
 
 .pr2{
@@ -60,7 +60,7 @@
 
 .pr1:hover{
     width: 800px;
-    opacity: 1;
+    opacity: 90%;
     filter: contrast(120%);
 }
 
@@ -91,4 +91,14 @@
     text-decoration: underline;
     text-decoration-color: #bf1b27;
     background-color: rgba(230, 230, 230);
+}
+
+.contenedorTexto{
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    text-align: left;
+    border-radius: 1rem;
+    background: rgba(124, 124, 124, 0.5);
+    display:none;
 }
