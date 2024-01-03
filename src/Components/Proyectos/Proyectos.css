@@ -40,8 +40,8 @@
     transition: 1s ease;
     background-image: url("./img/repo.png");
     background-size: cover;
-    flex-direction: row;
-    align-items:end;
+    flex-direction: column;
+    align-items: flex-start;
     align-content: center;
 }
 
