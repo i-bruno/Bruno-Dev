@@ -26,6 +26,18 @@ const Proyectos = () => {
         setHoverPr2(false);
     };
 
+        //useState proyecto3
+        const [hoverPr3, setHoverPr3] = useState(false);
+
+        const handleHoverPr3 = () => {
+            setHoverPr3(true);
+        };
+    
+        const handleLeavePr3 = () => {
+            setHoverPr3(false);
+        };
+    
+
     return (
         <div className='galeria'>
             <div className='pr1'
@@ -62,8 +74,22 @@ const Proyectos = () => {
                 </div>
                 <a href="http://repositorio.archivocasla.com.ar/" className='btn' target='_blank'>Ver mas...</a>
             </div>
-            <div className='pr3'>
-                <a href="#" className='btn'>Ver mas...</a>
+            <div className='pr3'
+                onMouseEnter={handleHoverPr3}
+                onMouseLeave={handleLeavePr3}
+                style={{ justifyContent: hoverPr3 ? 'space-between' : 'flex-end' }}
+            >
+                <div className='contenedorTexto'
+                    style={{ display: hoverPr3 ? 'block' : 'none' }}
+                >
+                    <p className='texto'>
+                        Con un estilo minimalista se desarrolló a pedido de la artista Rocío Ricagno una web porfolio personal implementado con React, pequeñas dinámicas con Javascript y algo de estilo con Bootstrap.
+                    </p>
+                    <p>
+                        Año de lanzamiento: 2023
+                    </p>
+                </div>
+                <a href="https://rocioricagno.ar/" className='btn' target='_blank'>Ver mas...</a>
             </div>
             <div className='pr1'>
                 <a href="#" className='btn'>Ver mas...</a>
